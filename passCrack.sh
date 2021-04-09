@@ -29,7 +29,7 @@ names_array=(	'Christine.Blanchard' 'Philip.Castillo' 'Lacey.Deleon'
 
 # INPUT variable holds the words of the dictionary, OUTPUT is file where my results will be extra saved!
 # INPUT=/usr/share/dict/words
-INPUT=word.txt
+INPUT=dictionary.txt
 OUTPUT=passwords.txt
 #salt = salt_array[0] , then salt = salt_array[1] usw..
 # line is what is written in each line of the INPUT
