@@ -56,7 +56,7 @@ do
 				echo $WHO >> $OUTPUT		# Adding each new result to OUTPUT
 			fi
 		done
-		# j variable checks which line of the input file was reached... In order to check the flow of my program, if I want...
+		# j variable checks which line of the input file was reached. It checks the flow of my program cause it takes time.. ALOT of time ....
 		echo "j : $j">achieved_word.txt
 		j=$(($j+1))
 	#done < data.txt
