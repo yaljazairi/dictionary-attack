@@ -57,7 +57,7 @@ do
 			fi
 		done
 		# j variable checks which line of the input file was reached. It checks the flow of my program cause it takes time.. ALOT of time ....
-		echo "j : $j">achieved_word.txt
+		echo "j : $j" > achieved_word.txt
 		j=$(($j+1))
 	#done < data.txt
 	done < $INPUT
